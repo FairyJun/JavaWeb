@@ -14,6 +14,6 @@
 	SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	String today = df.format(date);
 %>
-当前时间：<%=today %>
+当前时间为：<%=today %>
 </body>
 </html>
